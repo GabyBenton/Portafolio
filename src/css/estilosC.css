@@ -1,0 +1,198 @@
+/*Pagina contacto fondo*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif;
+}
+
+/*Nav*/
+nav{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #0C0812;
+  justify-content: space-around;
+  line-height: 80px;
+  z-index: 99;
+  box-shadow: 2px 2px 2px 2px rgba(0, 167, 196, 0.763);
+
+  
+}
+
+nav a{
+  text-decoration: none;
+}
+
+/*Logo del menu-nav*/
+
+.logo {
+  display: flex;
+  cursor:pointer;
+  text-transform: uppercase;
+}
+
+.logo a{
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+/*texto del nav- Menu*/
+.navitems{
+  display: flex;
+}
+
+.navitems li{
+  list-style: none;
+  margin: 0 15px;
+}
+
+.navitems li a{
+  font-size: 17px;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 3px;
+}
+
+.navitems li:hover a{
+  color: #CC00FF;
+}
+/*Iconos de redes sociales*/
+.redes a{
+  color: #ffffff;
+  display:inline-block;
+  margin-left: 15px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+/*Pagina inicio, background*/
+
+
+/*Background*/
+
+.containerSM{
+    justify-content: center;
+    background: linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7)),
+    url(/P2/src/img/fondo3.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    background-position: center;
+
+  }
+
+.info h1{
+    text-align: center;
+    display: block;
+    font-weight: 600;
+    font-size: 50px;
+    color: #ffffff;
+    padding: 10px;
+  }
+
+  .cols{
+    display: flex;
+    align-content: center;
+  }
+
+
+/*Formulario contacto*/
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #ab4493; 
+  border-color: #ab4493; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #ab4493; 
+}
+
+
+
+
+
+
+  
+  /*Pie de pagina inicio*/
+footer{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #0C0812;
+    justify-content: space-around;
+    line-height: 80px;
+    z-index: 99;
+  }
+  
+  footer a{
+    text-decoration: none;
+  }
+  
+  /*Logo del menu-nav*/
+  
+  .logop {
+    display: flex;
+    cursor:pointer;
+    text-transform: uppercase;
+  }
+  
+  .logop a{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
